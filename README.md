@@ -1,5 +1,5 @@
 # dumbphone-utilities
-A collection of useful services built for dumbphones and limited data plans.
+A collection of useful services built for dumbphones and limited data plans. Built out of my hatred for bloated websites and my love for old technology.
 
 ## Features:
 - A news aggregator that opens headlines in a text-only view
