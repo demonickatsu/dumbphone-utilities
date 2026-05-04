@@ -1,0 +1,47 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+  line-height: 1.6;
+  max-width: 65ch;
+  padding: 1rem;
+  background: #fff;
+  color: #111;
+}
+
+a { color: #00e; }
+a:visited { color: #551a8b; }
+
+h1 { font-size: 1.5rem; }
+h2 { font-size: 1.25rem; }
+h3 { font-size: 1.1rem; }
+
+pre, code {
+  background: #f0f0f0;
+  font-family: inherit;
+}
+
+pre {
+  padding: .5rem;
+  overflow-x: auto;
+  border-left: 2px solid #ccc;
+}
+
+blockquote {
+  border-left: 2px solid #ccc;
+  padding-left: 1rem;
+  color: #555;
+}
+
+table { border-collapse: collapse; width: 100%; }
+th, td { border: 1px solid #ccc; padding: .3rem .5rem; text-align: left; }
+
+input, textarea, select, button {
+  font-family: inherit;
+  font-size: 1rem;
+  padding: .4rem;
+  border: 1px solid #ccc;
+  display: block;
+  margin-bottom: .5rem;
+}
+
+img { max-width: 100%; display: block; }

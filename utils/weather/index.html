@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Weather</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+</head>
+<body>
+<input type="text" id="latbox" placeholder="latitude (12.34)" />
+<input type="text" id="lonbox" placeholder="longitude (-56.78)" />
+<button onclick="loadScript()">Load</button>
+<pre id="out"></pre>
+
+<script>
+  function loadScript() {
+  window.lat = document.getElementById('latbox').value;
+  window.lon = document.getElementById('lonbox').value;
+
+  const old = document.querySelector('script[src^="script.js"]');
+  if (old) old.remove();
+
+  const script = document.createElement('script');
+  script.src = 'script.js?t=' + Date.now();
+  document.body.appendChild(script);
+}
+</script>
+</body>
+<a href="/index.html">Back home</a>
+</html>
